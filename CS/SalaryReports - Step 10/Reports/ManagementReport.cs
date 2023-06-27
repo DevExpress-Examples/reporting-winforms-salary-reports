@@ -14,7 +14,7 @@ namespace SalaryReports
             InitializeComponent();
         }
 
-        private void xrChart1_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        private void xrChart1_BeforePrint(object sender, CancelEventArgs e)
         {
             XRChart xrc = (XRChart)sender;
 

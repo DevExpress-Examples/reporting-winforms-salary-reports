@@ -56,8 +56,8 @@ Namespace SalaryReports
 			Me.xrTableCell14 = New DevExpress.XtraReports.UI.XRTableCell()
 			Me.TopMargin = New DevExpress.XtraReports.UI.TopMarginBand()
 			Me.BottomMargin = New DevExpress.XtraReports.UI.BottomMarginBand()
-			Me.employeesDBDataSet1 = New SalaryReports.Data.EmployeesDBDataSet()
-			Me.full_Emp_Data_QueryTableAdapter = New SalaryReports.Data.EmployeesDBDataSetTableAdapters.Full_Emp_Data_QueryTableAdapter()
+			Me.employeesDBDataSet1 = New EmployeesDBDataSet()
+			Me.full_Emp_Data_QueryTableAdapter = New EmployeesDBDataSetTableAdapters.Full_Emp_Data_QueryTableAdapter()
 			Me.PageHeader = New DevExpress.XtraReports.UI.PageHeaderBand()
 			Me.xrLine1 = New DevExpress.XtraReports.UI.XRLine()
 			Me.lbTitle = New DevExpress.XtraReports.UI.XRLabel()
@@ -86,7 +86,7 @@ Namespace SalaryReports
 			' xrLabel3
 			' 
 			Me.xrLabel3.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() { New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Full Emp Data Query.totalPayment", "Total payment: {0:c2}")})
-			Me.xrLabel3.Font = New System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold)
+			Me.xrLabel3.Font = New DevExpress.Drawing.DXFont("Tahoma", 14F, DevExpress.Drawing.DXFontStyle.Bold)
 			Me.xrLabel3.ForeColor = System.Drawing.Color.FromArgb((CInt(Fix((CByte(243))))), (CInt(Fix((CByte(120))))), (CInt(Fix((CByte(0))))))
 			Me.xrLabel3.LocationFloat = New DevExpress.Utils.PointFloat(250.0001F, 305.1667F)
 			Me.xrLabel3.Name = "xrLabel3"
@@ -325,7 +325,7 @@ Namespace SalaryReports
 			' lbTitle
 			' 
 			Me.lbTitle.Borders = DevExpress.XtraPrinting.BorderSide.None
-			Me.lbTitle.Font = New System.Drawing.Font("Tahoma", 18F)
+			Me.lbTitle.Font = New DevExpress.Drawing.DXFont("Tahoma", 18F)
 			Me.lbTitle.LocationFloat = New DevExpress.Utils.PointFloat(0F, 0F)
 			Me.lbTitle.Name = "lbTitle"
 			Me.lbTitle.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F)
@@ -363,21 +363,21 @@ Namespace SalaryReports
 			Me.xrTableHeaderStyle.BackColor = System.Drawing.Color.FromArgb((CInt(Fix((CByte(84))))), (CInt(Fix((CByte(132))))), (CInt(Fix((CByte(213))))))
 			Me.xrTableHeaderStyle.BorderColor = System.Drawing.Color.White
 			Me.xrTableHeaderStyle.Borders = DevExpress.XtraPrinting.BorderSide.Bottom
-			Me.xrTableHeaderStyle.Font = New System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (CByte(204)))
+			Me.xrTableHeaderStyle.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.75F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, New DevExpress.Drawing.DXFontAdditionalProperty() {New DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", (CByte(204)))})
 			Me.xrTableHeaderStyle.ForeColor = System.Drawing.Color.White
 			Me.xrTableHeaderStyle.Name = "xrTableHeaderStyle"
 			Me.xrTableHeaderStyle.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
 			' 
 			' xrTableCellStyle
 			' 
-			Me.xrTableCellStyle.Font = New System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (CByte(204)))
+			Me.xrTableCellStyle.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.75F, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Point, New DevExpress.Drawing.DXFontAdditionalProperty() {New DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", (CByte(204)))})
 			Me.xrTableCellStyle.Name = "xrTableCellStyle"
 			Me.xrTableCellStyle.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100F)
 			Me.xrTableCellStyle.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
 			' 
 			' xrControlHeaderStyle
 			' 
-			Me.xrControlHeaderStyle.Font = New System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold)
+			Me.xrControlHeaderStyle.Font = New DevExpress.Drawing.DXFont("Tahoma", 14.25F, DevExpress.Drawing.DXFontStyle.Bold)
 			Me.xrControlHeaderStyle.ForeColor = System.Drawing.Color.FromArgb((CInt(Fix((CByte(243))))), (CInt(Fix((CByte(120))))), (CInt(Fix((CByte(0))))))
 			Me.xrControlHeaderStyle.Name = "xrControlHeaderStyle"
 			Me.xrControlHeaderStyle.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
@@ -423,7 +423,7 @@ Namespace SalaryReports
 		Private TopMargin As DevExpress.XtraReports.UI.TopMarginBand
 		Private BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
 		Private employeesDBDataSet1 As EmployeesDBDataSet
-		Private full_Emp_Data_QueryTableAdapter As Full_Emp_Data_QueryTableAdapter
+		Private full_Emp_Data_QueryTableAdapter As EmployeesDBDataSetTableAdapters.Full_Emp_Data_QueryTableAdapter
 		Private xrLabel3 As DevExpress.XtraReports.UI.XRLabel
 		Private xrTable2 As DevExpress.XtraReports.UI.XRTable
 		Private xrTableRow4 As DevExpress.XtraReports.UI.XRTableRow

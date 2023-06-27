@@ -283,9 +283,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem1.Command = DevExpress.XtraPrinting.PrintingSystemCommand.DocumentMap
 			Me.printPreviewBarItem1.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem1.Enabled = False
-			Me.printPreviewBarItem1.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_DocumentMap
+			Me.printPreviewBarItem1.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_DocumentMap
 			Me.printPreviewBarItem1.Id = 1
-			Me.printPreviewBarItem1.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_DocumentMapLarge
+			Me.printPreviewBarItem1.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_DocumentMapLarge
 			Me.printPreviewBarItem1.Name = "printPreviewBarItem1"
 			superToolTip1.FixedTooltipWidth = True
 			toolTipTitleItem1.Text = "Document Map"
@@ -303,9 +303,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem2.Command = DevExpress.XtraPrinting.PrintingSystemCommand.Parameters
 			Me.printPreviewBarItem2.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem2.Enabled = False
-			Me.printPreviewBarItem2.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Parameters
+			Me.printPreviewBarItem2.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Parameters
 			Me.printPreviewBarItem2.Id = 2
-			Me.printPreviewBarItem2.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ParametersLarge
+			Me.printPreviewBarItem2.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ParametersLarge
 			Me.printPreviewBarItem2.Name = "printPreviewBarItem2"
 			superToolTip2.FixedTooltipWidth = True
 			toolTipTitleItem2.Text = "Parameters"
@@ -322,9 +322,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem3.Command = DevExpress.XtraPrinting.PrintingSystemCommand.Find
 			Me.printPreviewBarItem3.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem3.Enabled = False
-			Me.printPreviewBarItem3.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Find
+			Me.printPreviewBarItem3.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Find
 			Me.printPreviewBarItem3.Id = 3
-			Me.printPreviewBarItem3.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_FindLarge
+			Me.printPreviewBarItem3.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_FindLarge
 			Me.printPreviewBarItem3.Name = "printPreviewBarItem3"
 			superToolTip3.FixedTooltipWidth = True
 			toolTipTitleItem3.Text = "Find"
@@ -341,9 +341,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem4.Command = DevExpress.XtraPrinting.PrintingSystemCommand.Customize
 			Me.printPreviewBarItem4.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem4.Enabled = False
-			Me.printPreviewBarItem4.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Customize
+			Me.printPreviewBarItem4.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Customize
 			Me.printPreviewBarItem4.Id = 4
-			Me.printPreviewBarItem4.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_CustomizeLarge
+			Me.printPreviewBarItem4.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_CustomizeLarge
 			Me.printPreviewBarItem4.Name = "printPreviewBarItem4"
 			superToolTip4.FixedTooltipWidth = True
 			toolTipTitleItem4.Text = "Options"
@@ -360,9 +360,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem5.Command = DevExpress.XtraPrinting.PrintingSystemCommand.Print
 			Me.printPreviewBarItem5.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem5.Enabled = False
-			Me.printPreviewBarItem5.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Print
+			Me.printPreviewBarItem5.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Print
 			Me.printPreviewBarItem5.Id = 5
-			Me.printPreviewBarItem5.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_PrintLarge
+			Me.printPreviewBarItem5.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_PrintLarge
 			Me.printPreviewBarItem5.Name = "printPreviewBarItem5"
 			superToolTip5.FixedTooltipWidth = True
 			toolTipTitleItem5.Text = "Print (Ctrl+P)"
@@ -379,9 +379,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem6.Command = DevExpress.XtraPrinting.PrintingSystemCommand.PrintDirect
 			Me.printPreviewBarItem6.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem6.Enabled = False
-			Me.printPreviewBarItem6.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_PrintDirect
+			Me.printPreviewBarItem6.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_PrintDirect
 			Me.printPreviewBarItem6.Id = 6
-			Me.printPreviewBarItem6.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_PrintDirectLarge
+			Me.printPreviewBarItem6.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_PrintDirectLarge
 			Me.printPreviewBarItem6.Name = "printPreviewBarItem6"
 			superToolTip6.FixedTooltipWidth = True
 			toolTipTitleItem6.Text = "Quick Print"
@@ -415,9 +415,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem8.Command = DevExpress.XtraPrinting.PrintingSystemCommand.EditPageHF
 			Me.printPreviewBarItem8.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem8.Enabled = False
-			Me.printPreviewBarItem8.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_EditPageHF
+			Me.printPreviewBarItem8.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_EditPageHF
 			Me.printPreviewBarItem8.Id = 8
-			Me.printPreviewBarItem8.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_EditPageHFLarge
+			Me.printPreviewBarItem8.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_EditPageHFLarge
 			Me.printPreviewBarItem8.Name = "printPreviewBarItem8"
 			superToolTip8.FixedTooltipWidth = True
 			toolTipTitleItem8.Text = "Header and Footer"
@@ -435,9 +435,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem9.Command = DevExpress.XtraPrinting.PrintingSystemCommand.Scale
 			Me.printPreviewBarItem9.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem9.Enabled = False
-			Me.printPreviewBarItem9.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Scale
+			Me.printPreviewBarItem9.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Scale
 			Me.printPreviewBarItem9.Id = 9
-			Me.printPreviewBarItem9.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ScaleLarge
+			Me.printPreviewBarItem9.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ScaleLarge
 			Me.printPreviewBarItem9.Name = "printPreviewBarItem9"
 			superToolTip9.FixedTooltipWidth = True
 			toolTipTitleItem9.Text = "Scale"
@@ -456,7 +456,7 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem10.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem10.Down = True
 			Me.printPreviewBarItem10.Enabled = False
-			Me.printPreviewBarItem10.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Pointer
+			Me.printPreviewBarItem10.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Pointer
 			Me.printPreviewBarItem10.GroupIndex = 1
 			Me.printPreviewBarItem10.Id = 10
 			Me.printPreviewBarItem10.Name = "printPreviewBarItem10"
@@ -477,7 +477,7 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem11.Command = DevExpress.XtraPrinting.PrintingSystemCommand.HandTool
 			Me.printPreviewBarItem11.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem11.Enabled = False
-			Me.printPreviewBarItem11.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_HandTool
+			Me.printPreviewBarItem11.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_HandTool
 			Me.printPreviewBarItem11.GroupIndex = 1
 			Me.printPreviewBarItem11.Id = 11
 			Me.printPreviewBarItem11.Name = "printPreviewBarItem11"
@@ -498,7 +498,7 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem12.Command = DevExpress.XtraPrinting.PrintingSystemCommand.Magnifier
 			Me.printPreviewBarItem12.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem12.Enabled = False
-			Me.printPreviewBarItem12.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Magnifier
+			Me.printPreviewBarItem12.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Magnifier
 			Me.printPreviewBarItem12.GroupIndex = 1
 			Me.printPreviewBarItem12.Id = 12
 			Me.printPreviewBarItem12.Name = "printPreviewBarItem12"
@@ -518,9 +518,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem13.Command = DevExpress.XtraPrinting.PrintingSystemCommand.ZoomOut
 			Me.printPreviewBarItem13.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem13.Enabled = False
-			Me.printPreviewBarItem13.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ZoomOut
+			Me.printPreviewBarItem13.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ZoomOut
 			Me.printPreviewBarItem13.Id = 13
-			Me.printPreviewBarItem13.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ZoomOutLarge
+			Me.printPreviewBarItem13.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ZoomOutLarge
 			Me.printPreviewBarItem13.Name = "printPreviewBarItem13"
 			superToolTip13.FixedTooltipWidth = True
 			toolTipTitleItem13.Text = "Zoom Out"
@@ -537,9 +537,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem14.Command = DevExpress.XtraPrinting.PrintingSystemCommand.ZoomIn
 			Me.printPreviewBarItem14.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem14.Enabled = False
-			Me.printPreviewBarItem14.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ZoomIn
+			Me.printPreviewBarItem14.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ZoomIn
 			Me.printPreviewBarItem14.Id = 14
-			Me.printPreviewBarItem14.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ZoomInLarge
+			Me.printPreviewBarItem14.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ZoomInLarge
 			Me.printPreviewBarItem14.Name = "printPreviewBarItem14"
 			superToolTip14.FixedTooltipWidth = True
 			toolTipTitleItem14.Text = "Zoom In"
@@ -557,9 +557,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem15.Command = DevExpress.XtraPrinting.PrintingSystemCommand.Zoom
 			Me.printPreviewBarItem15.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem15.Enabled = False
-			Me.printPreviewBarItem15.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Zoom
+			Me.printPreviewBarItem15.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Zoom
 			Me.printPreviewBarItem15.Id = 15
-			Me.printPreviewBarItem15.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ZoomLarge
+			Me.printPreviewBarItem15.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ZoomLarge
 			Me.printPreviewBarItem15.Name = "printPreviewBarItem15"
 			superToolTip15.FixedTooltipWidth = True
 			toolTipTitleItem15.Text = "Zoom"
@@ -576,9 +576,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem16.Command = DevExpress.XtraPrinting.PrintingSystemCommand.ShowFirstPage
 			Me.printPreviewBarItem16.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem16.Enabled = False
-			Me.printPreviewBarItem16.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ShowFirstPage
+			Me.printPreviewBarItem16.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ShowFirstPage
 			Me.printPreviewBarItem16.Id = 16
-			Me.printPreviewBarItem16.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ShowFirstPageLarge
+			Me.printPreviewBarItem16.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ShowFirstPageLarge
 			Me.printPreviewBarItem16.Name = "printPreviewBarItem16"
 			superToolTip16.FixedTooltipWidth = True
 			toolTipTitleItem16.Text = "First Page (Ctrl+Home)"
@@ -595,9 +595,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem17.Command = DevExpress.XtraPrinting.PrintingSystemCommand.ShowPrevPage
 			Me.printPreviewBarItem17.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem17.Enabled = False
-			Me.printPreviewBarItem17.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ShowPrevPage
+			Me.printPreviewBarItem17.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ShowPrevPage
 			Me.printPreviewBarItem17.Id = 17
-			Me.printPreviewBarItem17.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ShowPrevPageLarge
+			Me.printPreviewBarItem17.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ShowPrevPageLarge
 			Me.printPreviewBarItem17.Name = "printPreviewBarItem17"
 			superToolTip17.FixedTooltipWidth = True
 			toolTipTitleItem17.Text = "Previous Page (PageUp)"
@@ -614,9 +614,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem18.Command = DevExpress.XtraPrinting.PrintingSystemCommand.ShowNextPage
 			Me.printPreviewBarItem18.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem18.Enabled = False
-			Me.printPreviewBarItem18.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ShowNextPage
+			Me.printPreviewBarItem18.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ShowNextPage
 			Me.printPreviewBarItem18.Id = 18
-			Me.printPreviewBarItem18.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ShowNextPageLarge
+			Me.printPreviewBarItem18.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ShowNextPageLarge
 			Me.printPreviewBarItem18.Name = "printPreviewBarItem18"
 			superToolTip18.FixedTooltipWidth = True
 			toolTipTitleItem18.Text = "Next Page (PageDown)"
@@ -633,9 +633,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem19.Command = DevExpress.XtraPrinting.PrintingSystemCommand.ShowLastPage
 			Me.printPreviewBarItem19.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem19.Enabled = False
-			Me.printPreviewBarItem19.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ShowLastPage
+			Me.printPreviewBarItem19.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ShowLastPage
 			Me.printPreviewBarItem19.Id = 19
-			Me.printPreviewBarItem19.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ShowLastPageLarge
+			Me.printPreviewBarItem19.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ShowLastPageLarge
 			Me.printPreviewBarItem19.Name = "printPreviewBarItem19"
 			superToolTip19.FixedTooltipWidth = True
 			toolTipTitleItem19.Text = "Last Page (Ctrl+End)"
@@ -653,9 +653,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem20.Command = DevExpress.XtraPrinting.PrintingSystemCommand.MultiplePages
 			Me.printPreviewBarItem20.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem20.Enabled = False
-			Me.printPreviewBarItem20.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_MultiplePages
+			Me.printPreviewBarItem20.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_MultiplePages
 			Me.printPreviewBarItem20.Id = 20
-			Me.printPreviewBarItem20.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_MultiplePagesLarge
+			Me.printPreviewBarItem20.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_MultiplePagesLarge
 			Me.printPreviewBarItem20.Name = "printPreviewBarItem20"
 			superToolTip20.FixedTooltipWidth = True
 			toolTipTitleItem20.Text = "View Many Pages"
@@ -673,9 +673,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem21.Command = DevExpress.XtraPrinting.PrintingSystemCommand.FillBackground
 			Me.printPreviewBarItem21.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem21.Enabled = False
-			Me.printPreviewBarItem21.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_FillBackground
+			Me.printPreviewBarItem21.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_FillBackground
 			Me.printPreviewBarItem21.Id = 21
-			Me.printPreviewBarItem21.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_FillBackgroundLarge
+			Me.printPreviewBarItem21.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_FillBackgroundLarge
 			Me.printPreviewBarItem21.Name = "printPreviewBarItem21"
 			superToolTip21.FixedTooltipWidth = True
 			toolTipTitleItem21.Text = "Background Color"
@@ -692,9 +692,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem22.Command = DevExpress.XtraPrinting.PrintingSystemCommand.Watermark
 			Me.printPreviewBarItem22.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem22.Enabled = False
-			Me.printPreviewBarItem22.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Watermark
+			Me.printPreviewBarItem22.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Watermark
 			Me.printPreviewBarItem22.Id = 22
-			Me.printPreviewBarItem22.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_WatermarkLarge
+			Me.printPreviewBarItem22.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_WatermarkLarge
 			Me.printPreviewBarItem22.Name = "printPreviewBarItem22"
 			superToolTip22.FixedTooltipWidth = True
 			toolTipTitleItem22.Text = "Watermark"
@@ -751,9 +751,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem25.Command = DevExpress.XtraPrinting.PrintingSystemCommand.ClosePreview
 			Me.printPreviewBarItem25.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem25.Enabled = False
-			Me.printPreviewBarItem25.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ClosePreview
+			Me.printPreviewBarItem25.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ClosePreview
 			Me.printPreviewBarItem25.Id = 25
-			Me.printPreviewBarItem25.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ClosePreviewLarge
+			Me.printPreviewBarItem25.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ClosePreviewLarge
 			Me.printPreviewBarItem25.Name = "printPreviewBarItem25"
 			superToolTip25.FixedTooltipWidth = True
 			toolTipTitleItem25.Text = "Close Print Preview"
@@ -771,9 +771,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem26.Command = DevExpress.XtraPrinting.PrintingSystemCommand.PageOrientation
 			Me.printPreviewBarItem26.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem26.Enabled = False
-			Me.printPreviewBarItem26.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientation
+			Me.printPreviewBarItem26.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_PageOrientation
 			Me.printPreviewBarItem26.Id = 26
-			Me.printPreviewBarItem26.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationLarge
+			Me.printPreviewBarItem26.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationLarge
 			Me.printPreviewBarItem26.Name = "printPreviewBarItem26"
 			superToolTip26.FixedTooltipWidth = True
 			toolTipTitleItem26.Text = "Page Orientation"
@@ -791,9 +791,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem27.Command = DevExpress.XtraPrinting.PrintingSystemCommand.PaperSize
 			Me.printPreviewBarItem27.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem27.Enabled = False
-			Me.printPreviewBarItem27.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_PaperSize
+			Me.printPreviewBarItem27.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_PaperSize
 			Me.printPreviewBarItem27.Id = 27
-			Me.printPreviewBarItem27.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_PaperSizeLarge
+			Me.printPreviewBarItem27.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_PaperSizeLarge
 			Me.printPreviewBarItem27.Name = "printPreviewBarItem27"
 			superToolTip27.FixedTooltipWidth = True
 			toolTipTitleItem27.Text = "Page Size"
@@ -811,9 +811,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem28.Command = DevExpress.XtraPrinting.PrintingSystemCommand.PageMargins
 			Me.printPreviewBarItem28.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem28.Enabled = False
-			Me.printPreviewBarItem28.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_PageMargins
+			Me.printPreviewBarItem28.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_PageMargins
 			Me.printPreviewBarItem28.Id = 28
-			Me.printPreviewBarItem28.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsLarge
+			Me.printPreviewBarItem28.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsLarge
 			Me.printPreviewBarItem28.Name = "printPreviewBarItem28"
 			superToolTip28.FixedTooltipWidth = True
 			toolTipTitleItem28.Text = "Page Margins"
@@ -831,9 +831,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem29.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem29.Description = "Adobe Portable Document Format"
 			Me.printPreviewBarItem29.Enabled = False
-			Me.printPreviewBarItem29.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendPdf
+			Me.printPreviewBarItem29.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_SendPdf
 			Me.printPreviewBarItem29.Id = 29
-			Me.printPreviewBarItem29.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendPdfLarge
+			Me.printPreviewBarItem29.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_SendPdfLarge
 			Me.printPreviewBarItem29.Name = "printPreviewBarItem29"
 			superToolTip29.FixedTooltipWidth = True
 			toolTipTitleItem29.Text = "E-Mail As PDF"
@@ -851,9 +851,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem30.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem30.Description = "Plain Text"
 			Me.printPreviewBarItem30.Enabled = False
-			Me.printPreviewBarItem30.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendTxt
+			Me.printPreviewBarItem30.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_SendTxt
 			Me.printPreviewBarItem30.Id = 30
-			Me.printPreviewBarItem30.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendTxtLarge
+			Me.printPreviewBarItem30.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_SendTxtLarge
 			Me.printPreviewBarItem30.Name = "printPreviewBarItem30"
 			superToolTip30.FixedTooltipWidth = True
 			toolTipTitleItem30.Text = "E-Mail As Text"
@@ -871,9 +871,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem31.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem31.Description = "Comma-Separated Values Text"
 			Me.printPreviewBarItem31.Enabled = False
-			Me.printPreviewBarItem31.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendCsv
+			Me.printPreviewBarItem31.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_SendCsv
 			Me.printPreviewBarItem31.Id = 31
-			Me.printPreviewBarItem31.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendCsvLarge
+			Me.printPreviewBarItem31.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_SendCsvLarge
 			Me.printPreviewBarItem31.Name = "printPreviewBarItem31"
 			superToolTip31.FixedTooltipWidth = True
 			toolTipTitleItem31.Text = "E-Mail As CSV"
@@ -891,9 +891,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem32.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem32.Description = "Single File Web Page"
 			Me.printPreviewBarItem32.Enabled = False
-			Me.printPreviewBarItem32.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendMht
+			Me.printPreviewBarItem32.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_SendMht
 			Me.printPreviewBarItem32.Id = 32
-			Me.printPreviewBarItem32.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendMhtLarge
+			Me.printPreviewBarItem32.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_SendMhtLarge
 			Me.printPreviewBarItem32.Name = "printPreviewBarItem32"
 			superToolTip32.FixedTooltipWidth = True
 			toolTipTitleItem32.Text = "E-Mail As MHT"
@@ -911,9 +911,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem33.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem33.Description = "Microsoft Excel 2000-2003 Workbook"
 			Me.printPreviewBarItem33.Enabled = False
-			Me.printPreviewBarItem33.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendXls
+			Me.printPreviewBarItem33.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_SendXls
 			Me.printPreviewBarItem33.Id = 33
-			Me.printPreviewBarItem33.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsLarge
+			Me.printPreviewBarItem33.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_SendXlsLarge
 			Me.printPreviewBarItem33.Name = "printPreviewBarItem33"
 			superToolTip33.FixedTooltipWidth = True
 			toolTipTitleItem33.Text = "E-Mail As XLS"
@@ -931,9 +931,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem34.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem34.Description = "Microsoft Excel 2007 Workbook"
 			Me.printPreviewBarItem34.Enabled = False
-			Me.printPreviewBarItem34.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsx
+			Me.printPreviewBarItem34.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_SendXlsx
 			Me.printPreviewBarItem34.Id = 34
-			Me.printPreviewBarItem34.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsxLarge
+			Me.printPreviewBarItem34.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_SendXlsxLarge
 			Me.printPreviewBarItem34.Name = "printPreviewBarItem34"
 			superToolTip34.FixedTooltipWidth = True
 			toolTipTitleItem34.Text = "E-Mail As XLSX"
@@ -951,9 +951,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem35.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem35.Description = "Rich Text Format"
 			Me.printPreviewBarItem35.Enabled = False
-			Me.printPreviewBarItem35.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendRtf
+			Me.printPreviewBarItem35.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_SendRtf
 			Me.printPreviewBarItem35.Id = 35
-			Me.printPreviewBarItem35.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendRtfLarge
+			Me.printPreviewBarItem35.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_SendRtfLarge
 			Me.printPreviewBarItem35.Name = "printPreviewBarItem35"
 			superToolTip35.FixedTooltipWidth = True
 			toolTipTitleItem35.Text = "E-Mail As RTF"
@@ -971,9 +971,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem36.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem36.Description = "BMP, GIF, JPEG, PNG, TIFF, EMF, WMF"
 			Me.printPreviewBarItem36.Enabled = False
-			Me.printPreviewBarItem36.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendGraphic
+			Me.printPreviewBarItem36.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_SendGraphic
 			Me.printPreviewBarItem36.Id = 36
-			Me.printPreviewBarItem36.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SendGraphicLarge
+			Me.printPreviewBarItem36.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_SendGraphicLarge
 			Me.printPreviewBarItem36.Name = "printPreviewBarItem36"
 			superToolTip36.FixedTooltipWidth = True
 			toolTipTitleItem36.Text = "E-Mail As Image"
@@ -991,9 +991,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem37.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem37.Description = "Adobe Portable Document Format"
 			Me.printPreviewBarItem37.Enabled = False
-			Me.printPreviewBarItem37.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportPdf
+			Me.printPreviewBarItem37.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportPdf
 			Me.printPreviewBarItem37.Id = 37
-			Me.printPreviewBarItem37.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportPdfLarge
+			Me.printPreviewBarItem37.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportPdfLarge
 			Me.printPreviewBarItem37.Name = "printPreviewBarItem37"
 			superToolTip37.FixedTooltipWidth = True
 			toolTipTitleItem37.Text = "Export to PDF"
@@ -1011,9 +1011,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem38.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem38.Description = "Web Page"
 			Me.printPreviewBarItem38.Enabled = False
-			Me.printPreviewBarItem38.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportHtm
+			Me.printPreviewBarItem38.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportHtm
 			Me.printPreviewBarItem38.Id = 38
-			Me.printPreviewBarItem38.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportHtmLarge
+			Me.printPreviewBarItem38.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportHtmLarge
 			Me.printPreviewBarItem38.Name = "printPreviewBarItem38"
 			superToolTip38.FixedTooltipWidth = True
 			toolTipTitleItem38.Text = "Export to HTML"
@@ -1031,9 +1031,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem39.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem39.Description = "Plain Text"
 			Me.printPreviewBarItem39.Enabled = False
-			Me.printPreviewBarItem39.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportTxt
+			Me.printPreviewBarItem39.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportTxt
 			Me.printPreviewBarItem39.Id = 39
-			Me.printPreviewBarItem39.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportTxtLarge
+			Me.printPreviewBarItem39.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportTxtLarge
 			Me.printPreviewBarItem39.Name = "printPreviewBarItem39"
 			superToolTip39.FixedTooltipWidth = True
 			toolTipTitleItem39.Text = "Export to Text"
@@ -1051,9 +1051,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem40.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem40.Description = "Comma-Separated Values Text"
 			Me.printPreviewBarItem40.Enabled = False
-			Me.printPreviewBarItem40.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportCsv
+			Me.printPreviewBarItem40.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportCsv
 			Me.printPreviewBarItem40.Id = 40
-			Me.printPreviewBarItem40.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportCsvLarge
+			Me.printPreviewBarItem40.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportCsvLarge
 			Me.printPreviewBarItem40.Name = "printPreviewBarItem40"
 			superToolTip40.FixedTooltipWidth = True
 			toolTipTitleItem40.Text = "Export to CSV"
@@ -1071,9 +1071,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem41.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem41.Description = "Single File Web Page"
 			Me.printPreviewBarItem41.Enabled = False
-			Me.printPreviewBarItem41.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportMht
+			Me.printPreviewBarItem41.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportMht
 			Me.printPreviewBarItem41.Id = 41
-			Me.printPreviewBarItem41.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportMhtLarge
+			Me.printPreviewBarItem41.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportMhtLarge
 			Me.printPreviewBarItem41.Name = "printPreviewBarItem41"
 			superToolTip41.FixedTooltipWidth = True
 			toolTipTitleItem41.Text = "Export to MHT"
@@ -1091,9 +1091,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem42.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem42.Description = "Microsoft Excel 2000-2003 Workbook"
 			Me.printPreviewBarItem42.Enabled = False
-			Me.printPreviewBarItem42.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportXls
+			Me.printPreviewBarItem42.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportXls
 			Me.printPreviewBarItem42.Id = 42
-			Me.printPreviewBarItem42.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsLarge
+			Me.printPreviewBarItem42.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsLarge
 			Me.printPreviewBarItem42.Name = "printPreviewBarItem42"
 			superToolTip42.FixedTooltipWidth = True
 			toolTipTitleItem42.Text = "Export to XLS"
@@ -1111,9 +1111,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem43.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem43.Description = "Microsoft Excel 2007 Workbook"
 			Me.printPreviewBarItem43.Enabled = False
-			Me.printPreviewBarItem43.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsx
+			Me.printPreviewBarItem43.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsx
 			Me.printPreviewBarItem43.Id = 43
-			Me.printPreviewBarItem43.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsxLarge
+			Me.printPreviewBarItem43.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsxLarge
 			Me.printPreviewBarItem43.Name = "printPreviewBarItem43"
 			superToolTip43.FixedTooltipWidth = True
 			toolTipTitleItem43.Text = "Export to XLSX"
@@ -1131,9 +1131,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem44.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem44.Description = "Rich Text Format"
 			Me.printPreviewBarItem44.Enabled = False
-			Me.printPreviewBarItem44.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportRtf
+			Me.printPreviewBarItem44.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportRtf
 			Me.printPreviewBarItem44.Id = 44
-			Me.printPreviewBarItem44.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportRtfLarge
+			Me.printPreviewBarItem44.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportRtfLarge
 			Me.printPreviewBarItem44.Name = "printPreviewBarItem44"
 			superToolTip44.FixedTooltipWidth = True
 			toolTipTitleItem44.Text = "Export to RTF"
@@ -1151,9 +1151,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem45.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem45.Description = "BMP, GIF, JPEG, PNG, TIFF, EMF, WMF"
 			Me.printPreviewBarItem45.Enabled = False
-			Me.printPreviewBarItem45.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportGraphic
+			Me.printPreviewBarItem45.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportGraphic
 			Me.printPreviewBarItem45.Id = 45
-			Me.printPreviewBarItem45.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportGraphicLarge
+			Me.printPreviewBarItem45.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportGraphicLarge
 			Me.printPreviewBarItem45.Name = "printPreviewBarItem45"
 			superToolTip45.FixedTooltipWidth = True
 			toolTipTitleItem45.Text = "Export to Image"
@@ -1170,9 +1170,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem46.Command = DevExpress.XtraPrinting.PrintingSystemCommand.Open
 			Me.printPreviewBarItem46.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem46.Enabled = False
-			Me.printPreviewBarItem46.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Open
+			Me.printPreviewBarItem46.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Open
 			Me.printPreviewBarItem46.Id = 46
-			Me.printPreviewBarItem46.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_OpenLarge
+			Me.printPreviewBarItem46.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_OpenLarge
 			Me.printPreviewBarItem46.Name = "printPreviewBarItem46"
 			superToolTip46.FixedTooltipWidth = True
 			toolTipTitleItem46.Text = "Open (Ctrl + O)"
@@ -1189,9 +1189,9 @@ Namespace SalaryReports.UserControls
 			Me.printPreviewBarItem47.Command = DevExpress.XtraPrinting.PrintingSystemCommand.Save
 			Me.printPreviewBarItem47.ContextSpecifier = Me.documentViewerRibbonController1
 			Me.printPreviewBarItem47.Enabled = False
-			Me.printPreviewBarItem47.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Save
+			Me.printPreviewBarItem47.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Save
 			Me.printPreviewBarItem47.Id = 47
-			Me.printPreviewBarItem47.LargeGlyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_SaveLarge
+			Me.printPreviewBarItem47.LargeGlyph = PrintRibbonControllerResources.RibbonPrintPreview_SaveLarge
 			Me.printPreviewBarItem47.Name = "printPreviewBarItem47"
 			superToolTip47.FixedTooltipWidth = True
 			toolTipTitleItem47.Text = "Save (Ctrl + S)"
@@ -1272,7 +1272,7 @@ Namespace SalaryReports.UserControls
 			Me.zoomTrackBarEditItem1.Enabled = False
 			Me.zoomTrackBarEditItem1.Id = 54
 			Me.zoomTrackBarEditItem1.Name = "zoomTrackBarEditItem1"
-			Me.zoomTrackBarEditItem1.Range = New Integer() { 10, 500}
+			Me.zoomTrackBarEditItem1.Range = New Integer() {10, 500}
 			Me.zoomTrackBarEditItem1.Width = 140
 			' 
 			' repositoryItemZoomTrackBar1
@@ -1288,14 +1288,14 @@ Namespace SalaryReports.UserControls
 			' ribbonPage1
 			' 
 			Me.ribbonPage1.ContextSpecifier = Me.documentViewerRibbonController1
-			Me.ribbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() { Me.printPreviewRibbonPageGroup1, Me.printPreviewRibbonPageGroup2, Me.printPreviewRibbonPageGroup3, Me.printPreviewRibbonPageGroup4, Me.printPreviewRibbonPageGroup5, Me.printPreviewRibbonPageGroup6, Me.printPreviewRibbonPageGroup7, Me.printPreviewRibbonPageGroup8})
+			Me.ribbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.printPreviewRibbonPageGroup1, Me.printPreviewRibbonPageGroup2, Me.printPreviewRibbonPageGroup3, Me.printPreviewRibbonPageGroup4, Me.printPreviewRibbonPageGroup5, Me.printPreviewRibbonPageGroup6, Me.printPreviewRibbonPageGroup7, Me.printPreviewRibbonPageGroup8})
 			Me.ribbonPage1.Name = "ribbonPage1"
 			Me.ribbonPage1.Text = "Print Preview"
 			' 
 			' printPreviewRibbonPageGroup1
 			' 
 			Me.printPreviewRibbonPageGroup1.ContextSpecifier = Me.documentViewerRibbonController1
-			Me.printPreviewRibbonPageGroup1.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Document
+			Me.printPreviewRibbonPageGroup1.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Document
 			Me.printPreviewRibbonPageGroup1.ItemLinks.Add(Me.printPreviewBarItem46)
 			Me.printPreviewRibbonPageGroup1.ItemLinks.Add(Me.printPreviewBarItem47)
 			Me.printPreviewRibbonPageGroup1.Kind = DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroupKind.Document
@@ -1306,7 +1306,7 @@ Namespace SalaryReports.UserControls
 			' printPreviewRibbonPageGroup2
 			' 
 			Me.printPreviewRibbonPageGroup2.ContextSpecifier = Me.documentViewerRibbonController1
-			Me.printPreviewRibbonPageGroup2.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_PrintDirect
+			Me.printPreviewRibbonPageGroup2.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_PrintDirect
 			Me.printPreviewRibbonPageGroup2.ItemLinks.Add(Me.printPreviewBarItem5)
 			Me.printPreviewRibbonPageGroup2.ItemLinks.Add(Me.printPreviewBarItem6)
 			Me.printPreviewRibbonPageGroup2.ItemLinks.Add(Me.printPreviewBarItem4)
@@ -1319,7 +1319,7 @@ Namespace SalaryReports.UserControls
 			' printPreviewRibbonPageGroup3
 			' 
 			Me.printPreviewRibbonPageGroup3.ContextSpecifier = Me.documentViewerRibbonController1
-			Me.printPreviewRibbonPageGroup3.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_PageMargins
+			Me.printPreviewRibbonPageGroup3.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_PageMargins
 			Me.printPreviewRibbonPageGroup3.ItemLinks.Add(Me.printPreviewBarItem8)
 			Me.printPreviewRibbonPageGroup3.ItemLinks.Add(Me.printPreviewBarItem9)
 			Me.printPreviewRibbonPageGroup3.ItemLinks.Add(Me.printPreviewBarItem28)
@@ -1340,7 +1340,7 @@ Namespace SalaryReports.UserControls
 			' printPreviewRibbonPageGroup4
 			' 
 			Me.printPreviewRibbonPageGroup4.ContextSpecifier = Me.documentViewerRibbonController1
-			Me.printPreviewRibbonPageGroup4.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Find
+			Me.printPreviewRibbonPageGroup4.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Find
 			Me.printPreviewRibbonPageGroup4.ItemLinks.Add(Me.printPreviewBarItem3)
 			Me.printPreviewRibbonPageGroup4.ItemLinks.Add(Me.printPreviewBarItem1)
 			Me.printPreviewRibbonPageGroup4.ItemLinks.Add(Me.printPreviewBarItem16, True)
@@ -1355,7 +1355,7 @@ Namespace SalaryReports.UserControls
 			' printPreviewRibbonPageGroup5
 			' 
 			Me.printPreviewRibbonPageGroup5.ContextSpecifier = Me.documentViewerRibbonController1
-			Me.printPreviewRibbonPageGroup5.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Zoom
+			Me.printPreviewRibbonPageGroup5.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Zoom
 			Me.printPreviewRibbonPageGroup5.ItemLinks.Add(Me.printPreviewBarItem10)
 			Me.printPreviewRibbonPageGroup5.ItemLinks.Add(Me.printPreviewBarItem11)
 			Me.printPreviewRibbonPageGroup5.ItemLinks.Add(Me.printPreviewBarItem12)
@@ -1371,7 +1371,7 @@ Namespace SalaryReports.UserControls
 			' printPreviewRibbonPageGroup6
 			' 
 			Me.printPreviewRibbonPageGroup6.ContextSpecifier = Me.documentViewerRibbonController1
-			Me.printPreviewRibbonPageGroup6.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_Watermark
+			Me.printPreviewRibbonPageGroup6.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_Watermark
 			Me.printPreviewRibbonPageGroup6.ItemLinks.Add(Me.printPreviewBarItem21)
 			Me.printPreviewRibbonPageGroup6.ItemLinks.Add(Me.printPreviewBarItem22)
 			Me.printPreviewRibbonPageGroup6.Kind = DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroupKind.Background
@@ -1382,7 +1382,7 @@ Namespace SalaryReports.UserControls
 			' printPreviewRibbonPageGroup7
 			' 
 			Me.printPreviewRibbonPageGroup7.ContextSpecifier = Me.documentViewerRibbonController1
-			Me.printPreviewRibbonPageGroup7.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ExportFile
+			Me.printPreviewRibbonPageGroup7.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ExportFile
 			Me.printPreviewRibbonPageGroup7.ItemLinks.Add(Me.printPreviewBarItem23)
 			Me.printPreviewRibbonPageGroup7.ItemLinks.Add(Me.printPreviewBarItem24)
 			Me.printPreviewRibbonPageGroup7.Kind = DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroupKind.Export
@@ -1393,7 +1393,7 @@ Namespace SalaryReports.UserControls
 			' printPreviewRibbonPageGroup8
 			' 
 			Me.printPreviewRibbonPageGroup8.ContextSpecifier = Me.documentViewerRibbonController1
-			Me.printPreviewRibbonPageGroup8.Glyph = Global.SalaryReports.UserControls.PrintRibbonControllerResources.RibbonPrintPreview_ClosePreview
+			Me.printPreviewRibbonPageGroup8.Glyph = PrintRibbonControllerResources.RibbonPrintPreview_ClosePreview
 			Me.printPreviewRibbonPageGroup8.ItemLinks.Add(Me.printPreviewBarItem25)
 			Me.printPreviewRibbonPageGroup8.Kind = DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroupKind.Close
 			Me.printPreviewRibbonPageGroup8.Name = "printPreviewRibbonPageGroup8"

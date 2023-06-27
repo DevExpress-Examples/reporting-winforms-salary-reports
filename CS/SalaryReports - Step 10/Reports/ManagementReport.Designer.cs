@@ -171,7 +171,7 @@ namespace SalaryReports
             // lbTitle
             // 
             this.lbTitle.Borders = DevExpress.XtraPrinting.BorderSide.None;
-            this.lbTitle.Font = new System.Drawing.Font("Tahoma", 18F);
+            this.lbTitle.Font = new DevExpress.Drawing.DXFont("Tahoma", 18F);
             this.lbTitle.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.lbTitle.Name = "lbTitle";
             this.lbTitle.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -481,7 +481,7 @@ namespace SalaryReports
             // 
             // xrControlHeaderStyle
             // 
-            this.xrControlHeaderStyle.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.xrControlHeaderStyle.Font = new DevExpress.Drawing.DXFont("Tahoma", 14.25F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(204)))});
             this.xrControlHeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(120)))), ((int)(((byte)(0)))));
             this.xrControlHeaderStyle.Name = "xrControlHeaderStyle";
             this.xrControlHeaderStyle.TextAlignment = DevExpress.XtraPrinting.TextAlignment.BottomCenter;
@@ -493,7 +493,7 @@ namespace SalaryReports
             this.xrTableHeaderStyle.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTableHeaderStyle.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.xrTableHeaderStyle.Font = new DevExpress.Drawing.DXFont("Tahoma", 9.75F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(204)))});
             this.xrTableHeaderStyle.ForeColor = System.Drawing.Color.White;
             this.xrTableHeaderStyle.Name = "xrTableHeaderStyle";
             this.xrTableHeaderStyle.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
@@ -552,7 +552,7 @@ namespace SalaryReports
         series1,
         series2};
             this.xrChart1.SizeF = new System.Drawing.SizeF(650F, 397.8333F);
-            this.xrChart1.BeforePrint += new System.Drawing.Printing.PrintEventHandler(this.xrChart1_BeforePrint);
+            this.xrChart1.BeforePrint += new DevExpress.XtraReports.UI.BeforePrintEventHandler(this.xrChart1_BeforePrint);
             // 
             // full_Emp_Data_QueryTableAdapter
             // 

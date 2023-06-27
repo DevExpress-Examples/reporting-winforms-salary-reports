@@ -47,7 +47,7 @@
             // xrLabel1
             // 
             this.xrLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.xrLabel1.Font = new System.Drawing.Font("Tahoma", 42F);
+            this.xrLabel1.Font = new DevExpress.Drawing.DXFont("Tahoma", 42F);
             this.xrLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(132)))), ((int)(((byte)(213)))));
             this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 195.8333F);
             this.xrLabel1.Name = "xrLabel1";

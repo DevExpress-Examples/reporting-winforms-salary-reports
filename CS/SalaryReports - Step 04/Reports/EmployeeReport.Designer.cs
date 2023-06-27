@@ -95,7 +95,7 @@ namespace SalaryReports
             // 
             this.xrLabel3.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
             new DevExpress.XtraReports.UI.XRBinding("Text", null, "Full Emp Data Query.totalPayment", "Total payment: {0:c2}")});
-            this.xrLabel3.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+            this.xrLabel3.Font = new DevExpress.Drawing.DXFont("Tahoma", 14F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(120)))), ((int)(((byte)(0)))));
             this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(250.0001F, 305.1667F);
             this.xrLabel3.Name = "xrLabel3";
@@ -366,7 +366,7 @@ namespace SalaryReports
             // lbTitle
             // 
             this.lbTitle.Borders = DevExpress.XtraPrinting.BorderSide.None;
-            this.lbTitle.Font = new System.Drawing.Font("Tahoma", 18F);
+            this.lbTitle.Font = new DevExpress.Drawing.DXFont("Tahoma", 18F);
             this.lbTitle.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.lbTitle.Name = "lbTitle";
             this.lbTitle.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -404,21 +404,21 @@ namespace SalaryReports
             this.xrTableHeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(132)))), ((int)(((byte)(213)))));
             this.xrTableHeaderStyle.BorderColor = System.Drawing.Color.White;
             this.xrTableHeaderStyle.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
-            this.xrTableHeaderStyle.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.xrTableHeaderStyle.Font = new DevExpress.Drawing.DXFont("Tahoma", 9.75F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(204)))});
             this.xrTableHeaderStyle.ForeColor = System.Drawing.Color.White;
             this.xrTableHeaderStyle.Name = "xrTableHeaderStyle";
             this.xrTableHeaderStyle.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrTableCellStyle
             // 
-            this.xrTableCellStyle.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.xrTableCellStyle.Font = new DevExpress.Drawing.DXFont("Tahoma", 9.75F, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(204)))});
             this.xrTableCellStyle.Name = "xrTableCellStyle";
             this.xrTableCellStyle.Padding = new DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100F);
             this.xrTableCellStyle.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrControlHeaderStyle
             // 
-            this.xrControlHeaderStyle.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold);
+            this.xrControlHeaderStyle.Font = new DevExpress.Drawing.DXFont("Tahoma", 14.25F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrControlHeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(120)))), ((int)(((byte)(0)))));
             this.xrControlHeaderStyle.Name = "xrControlHeaderStyle";
             this.xrControlHeaderStyle.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;

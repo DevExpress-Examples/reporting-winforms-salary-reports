@@ -43,7 +43,7 @@ Namespace SalaryReports
 			' xrLabel1
 			' 
 			Me.xrLabel1.BackColor = System.Drawing.Color.Transparent
-			Me.xrLabel1.Font = New System.Drawing.Font("Tahoma", 42F)
+			Me.xrLabel1.Font = New DevExpress.Drawing.DXFont("Tahoma", 42F)
 			Me.xrLabel1.ForeColor = System.Drawing.Color.FromArgb((CInt(Fix((CByte(84))))), (CInt(Fix((CByte(132))))), (CInt(Fix((CByte(213))))))
 			Me.xrLabel1.LocationFloat = New DevExpress.Utils.PointFloat(0F, 195.8333F)
 			Me.xrLabel1.Name = "xrLabel1"

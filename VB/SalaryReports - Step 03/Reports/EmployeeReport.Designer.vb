@@ -56,8 +56,8 @@ Namespace SalaryReports
 			Me.xrTableCell14 = New DevExpress.XtraReports.UI.XRTableCell()
 			Me.TopMargin = New DevExpress.XtraReports.UI.TopMarginBand()
 			Me.BottomMargin = New DevExpress.XtraReports.UI.BottomMarginBand()
-			Me.employeesDBDataSet1 = New SalaryReports.Data.EmployeesDBDataSet()
-			Me.full_Emp_Data_QueryTableAdapter = New SalaryReports.Data.EmployeesDBDataSetTableAdapters.Full_Emp_Data_QueryTableAdapter()
+			Me.employeesDBDataSet1 = New EmployeesDBDataSet()
+			Me.full_Emp_Data_QueryTableAdapter = New EmployeesDBDataSetTableAdapters.Full_Emp_Data_QueryTableAdapter()
 			Me.PageHeader = New DevExpress.XtraReports.UI.PageHeaderBand()
 			Me.xrLine1 = New DevExpress.XtraReports.UI.XRLine()
 			Me.lbTitle = New DevExpress.XtraReports.UI.XRLabel()
@@ -333,7 +333,7 @@ Namespace SalaryReports
 		Private TopMargin As DevExpress.XtraReports.UI.TopMarginBand
 		Private BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
 		Private employeesDBDataSet1 As EmployeesDBDataSet
-		Private full_Emp_Data_QueryTableAdapter As Full_Emp_Data_QueryTableAdapter
+		Private full_Emp_Data_QueryTableAdapter As EmployeesDBDataSetTableAdapters.Full_Emp_Data_QueryTableAdapter
 		Private xrLabel3 As DevExpress.XtraReports.UI.XRLabel
 		Private xrTable2 As DevExpress.XtraReports.UI.XRTable
 		Private xrTableRow4 As DevExpress.XtraReports.UI.XRTableRow

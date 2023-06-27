@@ -13,7 +13,7 @@ Namespace SalaryReports
 			InitializeComponent()
 		End Sub
 
-		Private Sub xrChart1_BeforePrint(ByVal sender As Object, ByVal e As System.Drawing.Printing.PrintEventArgs) Handles xrChart1.BeforePrint
+		Private Sub xrChart1_BeforePrint(ByVal sender As Object, ByVal e As CancelEventArgs) Handles xrChart1.BeforePrint
 			Dim xrc As XRChart = CType(sender, XRChart)
 
 			Dim filter_value As DateTime = CDate(paramPaymentDate.Value)
