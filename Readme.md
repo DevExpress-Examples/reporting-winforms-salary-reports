@@ -1,7 +1,7 @@
 # Reporting for WinForms - Getting Started
 
 
-<p>This solution is created to illustrate the steps described in the <a href="https://www.devexpress.com/Support/Center/p/KA18926">Creating a Salary reporting application with the DevExpress XtraReports. Introduction.</a> tutorial series.
+<p>This solution is created to illustrate the steps described in the <a href="https://www.devexpress.com/Support/Center/p/KA18926">Creating a Salary Reporting Application with the DevExpress XtraReports</a> tutorial series.
 
 ![Getting Started - XtraReports - Screenshot](/Images/screenshot.png)
 
