@@ -3,22 +3,41 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E5144)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Reporting for WinForms - Getting Started
+# Reporting for WinForms - Salary Reports
 
+This example generates a salary report for each employee and a summary report for the management department.
 
-<p>This solution is created to illustrate the steps described in the <a href="https://www.devexpress.com/Support/Center/p/KA18926">Creating a Salary Reporting Application with the DevExpress XtraReports</a> tutorial series.
+The app illustrates the following reporting features: [bands](https://docs.devexpress.com/XtraReports/2587/detailed-guide-to-devexpress-reporting/introduction-to-banded-reports) and [controls](https://docs.devexpress.com/XtraReports/2605/detailed-guide-to-devexpress-reporting/use-report-controls?p=netframework), [calculated fields](https://docs.devexpress.com/XtraReports/4813/detailed-guide-to-devexpress-reporting/shape-report-data/use-calculated-fields/calculated-fields-overview), [appearance](https://docs.devexpress.com/XtraReports/2573/desktop-reporting/winforms-reporting/winforms-reporting-application-appearance/change-the-application-skin), [format rules](https://docs.devexpress.com/XtraReports/119473/detailed-guide-to-devexpress-reporting/use-expressions/expressions-tasks-and-solutions/conditionally-change-a-controls-appearance), [parameters](https://docs.devexpress.com/XtraReports/4812/detailed-guide-to-devexpress-reporting/use-report-parameters?p=netframework), [summaries](https://docs.devexpress.com/XtraReports/403729/detailed-guide-to-devexpress-reporting/shape-report-data/calculate-summaries/calculate-summaries-overview), a [summary chart](https://docs.devexpress.com/XtraReports/2609/detailed-guide-to-devexpress-reporting/use-report-controls/use-charts/use-charts-in-reports), [table of content](https://docs.devexpress.com/XtraReports/115661/detailed-guide-to-devexpress-reporting/add-navigation/add-a-table-of-contents?p=netframework), and more.
 
-![Getting Started - XtraReports - Screenshot](/Images/screenshot.png)
+The main application points:
 
+1. The capability to create employee salary and summary reports for a given month.
 
-<p>The solution consists of the following projects:</p><p><strong>Salary Reports - Step 01</strong> - The resulting project for the <a href="https://www.devexpress.com/Support/Center/p/KA18928">Сreating a Salary reporting application with the DevExpress XtraReports. Part 1 – Creating an employee report.</a> article</p><p><strong>Salary Reports - Step 0</strong><strong>2</strong> - The resulting project for the <a href="https://www.devexpress.com/Support/Center/p/KA18929">Creating a Salary reporting application with the DevExpress XtraReports. Part 2 - Customizing the report layout (bands and controls).</a> article</p><p><strong>Salary Reports - Step 0</strong><strong>3</strong> - The resulting project for the <a href="https://www.devexpress.com/Support/Center/p/KA18930">Creating a Salary reporting application with the DevExpress XtraReports. Part 3 - Create a Calculated field for calculating a total payment</a> article</p><p><strong>Salary Reports - Step 0</strong><strong>4</strong> - The resulting project for the <a href="https://www.devexpress.com/Support/Center/p/KA18931">Creating a Salary reporting application with the DevExpress XtraReports. Part 4 - Customize the report appearance. Applying Formatting Rules.</a> article</p><p><strong>Salary Reports - Step 0</strong><strong>5</strong> - The resulting project for the <a href="https://www.devexpress.com/Support/Center/p/KA18932">Creating a Salary reporting application with the DevExpress XtraReports. Part 5 - Add parameters and Filter data.</a> article</p><p><strong>Salary Reports - Step 0</strong><strong>6</strong> - The resulting project for the <a href="https://www.devexpress.com/Support/Center/p/KA18933">Creating a Salary reporting application with the DevExpress XtraReports. Part 6 - Сreate a Management report and bind it to data (master-detail).</a> article</p><p><strong>Salary Reports - Step 0</strong><strong>7</strong> - The resulting project for the <a href="https://www.devexpress.com/Support/Center/p/KA18935">Creating a Salary reporting application with the DevExpress XtraReports. Part 7 - Сreating UI for end-user interaction</a> article</p><p><strong>Salary Reports - Step 0</strong><strong>8</strong> - The resulting project for the <a href="https://www.devexpress.com/Support/Center/p/KA18936">Creating a Salary reporting application with the DevExpress XtraReports. Part 8 - Skinning the application</a> article</p><p><strong>Salary Reports - Step 0</strong><strong>9</strong> - The resulting project for the <a href="https://www.devexpress.com/Support/Center/p/KA18937">Creating a Salary reporting application with the DevExpress XtraReports. Part 9 - Calculating summary by department</a> article</p><p><strong>Salary Reports - Step </strong><strong>10</strong> - The resulting project for the <a href="https://www.devexpress.com/Support/Center/p/KA18938">Creating a Salary reporting application with the DevExpress XtraReports. Part 10 - Add a summary chart (sickdays and overtime)</a> article</p><p><strong>Salary Reports - Step </strong><strong>11</strong> - The resulting project for the <a href="https://www.devexpress.com/Support/Center/p/KA18939">Creating a Salary reporting application with the DevExpress XtraReports. Part 11 - Add Table Of Contents to the Management Report</a> article</p><p><strong>Salary Reports - Step </strong><strong>12</strong> - The resulting project for the <a href="https://www.devexpress.com/Support/Center/p/KA18940">Creating a Salary reporting application with the DevExpress XtraReports. Part 12 - Add title page to the management report</a> article</p><br />
+2. Each employee salary report provides the following:
+   - Employee credentials, contacts and position
+   - The number of sick leaves and overtime (in days) in the month
+   - An income calculated from position, salary and overtime
+
+   ![employee-salary-report](/images/employee-salary-report.png)
+
+3. The summary report displays the following:
+   - Information about salaries grouped by department
+   - Summary information for sick leaves and overtime in each department
+   - A summary chart for the summary information related to each department
+
+   ![summary-report](/images/summary-report.png)
+
+4. A management interface presented to the user for report generation:
+   
+   ![management-screenshot](/images/screenshot.png)
+
+5. Report data is bound to a database.
 
 ## Documentation
 
 - [Create a Report from A to Z](https://docs.devexpress.com/XtraReports/2440/get-started-with-devexpress-reporting/create-a-report-from-a-to-z)
-- [Create Reports](https://docs.devexpress.com/XtraReports/5152/create-reports)
-- [Create a Report in Code](https://docs.devexpress.com/XtraReports/115726/detailed-guide-to-devexpress-reporting/reporting-api/create-reports-in-code)
-
+- [Create Different Report Types (Walkthroughs)](https://docs.devexpress.com/XtraReports/5152/create-reports)
+- [Detailed Guide to DevExpress Reporting](https://docs.devexpress.com/XtraReports/5150/detailed-guide-to-devexpress-reporting)
 
 ## More Examples
 
