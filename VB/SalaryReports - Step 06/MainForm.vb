@@ -1,34 +1,28 @@
-﻿Imports Microsoft.VisualBasic
 Imports System
-Imports System.Collections.Generic
 Imports System.ComponentModel
-Imports System.Data
 Imports System.Drawing
-Imports System.Linq
-Imports System.Text
 Imports System.Windows.Forms
 Imports DevExpress.XtraReports.UI
-Imports DevExpress.XtraEditors
 
 Namespace SalaryReports
-	Partial Public Class MainForm
-		Inherits Form
-		Public Sub New()
-			InitializeComponent()
-		End Sub
 
-		Private Sub simpleButton1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles simpleButton1.Click
-			Dim empReport As New EmployeeReport()
+    Public Partial Class MainForm
+        Inherits Form
 
-			Dim printTool As New ReportPrintTool(empReport)
-			printTool.ShowPreviewDialog()
-		End Sub
+        Public Sub New()
+            InitializeComponent()
+        End Sub
 
-		Private Sub simpleButton3_Click(ByVal sender As Object, ByVal e As EventArgs) Handles simpleButton3.Click
-			Dim manReport As New ManagementReport()
+        Private Sub simpleButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
+            Dim empReport As EmployeeReport = New EmployeeReport()
+            Dim printTool As ReportPrintTool = New ReportPrintTool(empReport)
+            printTool.ShowPreviewDialog()
+        End Sub
 
-			Dim printTool As New ReportPrintTool(manReport)
-			printTool.ShowPreviewDialog()
-		End Sub
-	End Class
+        Private Sub simpleButton3_Click(ByVal sender As Object, ByVal e As EventArgs)
+            Dim manReport As ManagementReport = New ManagementReport()
+            Dim printTool As ReportPrintTool = New ReportPrintTool(manReport)
+            printTool.ShowPreviewDialog()
+        End Sub
+    End Class
 End Namespace
