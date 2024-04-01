@@ -2574,7 +2574,6 @@ Namespace EmployeesDBDataSetTableAdapters
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")>
         Private Sub InitConnection()
-            Me._connection.ConnectionString = My.Settings.Default.EmployeesDBConnectionString
             Me._connection = New Global.System.Data.OleDb.OleDbConnection()
             Me._connection.ConnectionString = My.Settings.Default.EmployeesDBConnectionString
         End Sub
