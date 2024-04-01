@@ -547,7 +547,6 @@ namespace SalaryReports
             xyDiagram1.DefaultPane.EnableAxisYScrolling = DevExpress.Utils.DefaultBoolean.False;
             xyDiagram1.DefaultPane.EnableAxisYZooming = DevExpress.Utils.DefaultBoolean.False;
             this.xrChart1.Diagram = xyDiagram1;
-            this.xrChart1.Legend.LegendID = -1;
             this.xrChart1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 45.91675F);
             this.xrChart1.Name = "xrChart1";
             series1.ArgumentDataMember = "DepartmentName";
