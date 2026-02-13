@@ -49,7 +49,7 @@ The main application points:
 - [Reporting for WinForms - Use Subreport Control to Add a Chart](https://github.com/DevExpress-Examples/Reporting-Use-Subreport-To-Add-A-Chart)
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-winforms-salary-reports&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-winforms-salary-reports&~~~was_helpful=no)
 
